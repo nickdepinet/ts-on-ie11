@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "CommonJS",
+        //"moduleResolution": "node",
+        "outDir": "dist",
+        "lib": [
+            "DOM",
+            "DOM.Iterable",
+            "ES5",
+            "ES2015",
+            "ES2015.Reflect",
+            "ES2015.Proxy",
+            "ES2018.Promise",
+            "ES2020.Promise"
+        ],
+        "sourceMap": true
+        //"esModuleInterop": true
+    },
+    "files": [
+        "./src/index.ts"
+    ]
+}
